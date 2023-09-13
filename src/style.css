@@ -1,19 +1,22 @@
+
+/*changes style  for all*/
 *
 {
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
 }
 
 html,
 body
 {
+    /*prevents scroll beyond limits*/
     overflow: hidden;
 }
-
+/*targets canvas*/
 .webgl
 {
     position: fixed;
     top: 0;
     left: 0;
-    outline: none;
+
 }
